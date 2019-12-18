@@ -32,7 +32,7 @@ function Bio() {
             <strong>
             <a href={`/`}> {author} </a>
             </strong> {` `}
-            creates unique original feature films, short films, music videos, and promotional videos for independent artists and small business.
+            creates unique original short films, music videos, and promotional videos for independent artists and small business.
             </p>
           </div>
         )
