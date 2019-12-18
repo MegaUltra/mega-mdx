@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog MDX`,
-    author: `Matt Hagner`,
-    description: `An extension of the gatsby starter blog, with support for MDX`,
-    siteUrl: `https://gatsby-starter-blog-mdx-demo.netlify.com/`,
+    title: `Mega Ultra Studios`,
+    author: `Mikel-Jon West`,
+    description: `Mega Ultra Studios | Multimeda Production`,
+    siteUrl: `https://megaultra.space`,
     social: {
       twitter: `mattinthecouch`,
     },
@@ -125,13 +125,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Mega Ultra Studios`,
+        short_name: `Mega Ultra`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#cccccc`,
+        theme_color: `#a68953`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/logo.png`,
       },
     },
     `gatsby-plugin-offline`,
