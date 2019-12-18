@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Mega Ultra Studios`,
-    author: `Mikel-Jon West`,
+    author: `Mega Ultra Studios`,
     description: `Mega Ultra Studios | Multimeda Production`,
     siteUrl: `https://megaultra.space`,
     social: {
-      twitter: `mattinthecouch`,
+      twitter: ``,
     },
   },
   plugins: [

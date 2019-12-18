@@ -24,16 +24,15 @@ function Bio() {
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
                 minWidth: 50,
-                borderRadius: `100%`,
+                borderRadius: `9%`,
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in
-              Minneapolis building silly things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+            Known for the throwback grindhouse exploitation feature length film <em>Left for Dead</em>,{` `}
+            <strong>
+            <a href={`/`}> {author} </a>
+            </strong> {` `}
+            creates unique original feature films, short films, music videos, and promotional videos for independent artists and small business.
             </p>
           </div>
         )
@@ -44,7 +43,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/mega-ultra-icon.jpeg/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
